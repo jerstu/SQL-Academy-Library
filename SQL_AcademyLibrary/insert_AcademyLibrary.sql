@@ -1,3 +1,9 @@
+
+/*	The Tech Academy SQL Database Final Project -  record INSERT code
+	This is an TSQL script to INSERT mostly fictional data into our fictional library.
+	This should be mostly self expanatory, and was formatted to be easy to read.
+*/
+
 USE AcademyLibrary
 GO
 
@@ -5,24 +11,24 @@ INSERT INTO PUBLISHER
 	(PublisherName,Address,Phone)
 	VALUES
 	('Parallax Press',					'2236 Sixth Street B, Berkeley, CA 94710',					5105406411),
-	('Broadway Books',					'1745 Broadway New York, NY 10019, New York, NY 10019',		8007932665),
+	('Broadway Books',					'1745 Broadway New York, NY 10019, New York, NY 10019',				8007932665),
 	('Hunter House',					'1515 1/2 Park St, Alameda, CA 94501',						5108655282),
-	('Hay House',						'6611, 2776 Loker Ave W, Carlsbad, CA 92010',				7604317695),
-	('Frog Books',						'11820 Uradco Place, Suite 105 San Antonio, FL 33576',		3525882082),
-	('Buddha Educational Foundation',	'11F, No.55 Hang Chow South Road, Sec. 1, Taipei, Taiwan',	886223951198),
-	('Oregon Historical Society',		'200 SW Park Ave, Portland, OR 97205',						5032221741),
-	('Shambhala Publications',			'4720 Walnut Street, Boulder, CO 80301',					3032229598),
-	('Penguin Random House',			'1745 Broadway, New York, NY 10019,',						8007932665),
+	('Hay House',						'6611, 2776 Loker Ave W, Carlsbad, CA 92010',					7604317695),
+	('Frog Books',						'11820 Uradco Place, Suite 105 San Antonio, FL 33576',				3525882082),
+	('Buddha Educational Foundation',			'11F, No.55 Hang Chow South Road, Sec. 1, Taipei, Taiwan',			886223951198),
+	('Oregon Historical Society',				'200 SW Park Ave, Portland, OR 97205',						5032221741),
+	('Shambhala Publications',				'4720 Walnut Street, Boulder, CO 80301',					3032229598),
+	('Penguin Random House',				'1745 Broadway, New York, NY 10019,',						8007932665),
 	('Bantam Books',					'1745 Broadway, New York, NY 10019',						2127829000),
-	('Atria Books',						'1230 6th Ave, New York, NY 10020',							2126987086),
-	('The Mountaineers',				'7700 Sand Point Way NE, Seattle, WA 98115',				2065216001),
+	('Atria Books',						'1230 6th Ave, New York, NY 10020',						2126987086),
+	('The Mountaineers',				'	7700 Sand Point Way NE, Seattle, WA 98115',					2065216001),
 	('Sasquatch Books',					'1904 3rd Ave #710, Seattle, WA 98101',						2064674300),
-	('Menasha Ridge Press',				'2204 1st Ave S #102, Birmingham, AL 35233'	,				2053220439),
-	('Scribner',						'1230 6th Ave, New York, NY 10020',							2126987000),
-	('HarperCollins Publishers',		'195 Broadway, New York, NY 10007',							2122077000),
+	('Menasha Ridge Press',					'2204 1st Ave S #102, Birmingham, AL 35233',					2053220439),
+	('Scribner',						'1230 6th Ave, New York, NY 10020',						2126987000),
+	('HarperCollins Publishers',				'195 Broadway, New York, NY 10007',						2122077000),
 	('Signet Classic',					'1745 Broadway, New York, NY 10019',						2127829000),
-	('Penguin Classics',				'1745 Broadway, New York, NY 10019',						2127829000),
-	('Tech Academy Books',				'310 SW 4th Ave #412, Portland, OR 97204',					5032066915)
+	('Penguin Classics',					'1745 Broadway, New York, NY 10019',						2127829000),
+	('Tech Academy Books',					'310 SW 4th Ave #412, Portland, OR 97204',					5032066915)
 ;
 
 
@@ -35,41 +41,41 @@ INSERT INTO BOOKS
 	(Title,PublisherName)
 	VALUES 
 	('Interbeing, Commentairies on the Tiep Hiemn Precepts',						'Parallax Press'),
-	('Under The Tuscan Sun',														'Broadway Books'),
-	('The Bowl Of Saki',															'Hunter House'),
+	('Under The Tuscan Sun',										'Broadway Books'),
+	('The Bowl Of Saki',											'Hunter House'),
 	('Ask and It is Given, Learning to Manifest Your Desires',						'Hay House'),
 	('Medical Aromatherapy, Healing with Essential Oils',							'Frog Books'),
-	('Clear Your Clutter with Feng Shui',											'Broadway Books'),
-	('A Manual of  Buddhism',														'Buddha Educational Foundation'),
-	('A Century of Portland Architecture',											'Oregon Historical Society'),
-	('The Rumi Collection',															'Shambhala Publications'),
-	('Getting Things Done, The Art of Stress-Free Productivity',					'Penguin Random House'),
-	('Your Money or Your Life',														'Penguin Random House'),
-	('On the Road',																	'Penguin Random House'),
-	('Jitterbug Perfume',															'Bantam Books'),
-	('A New Earth, Awakening to your Life''s Purpose',								'Penguin Random House'),
-	('How to Be Alone',																'Atria Books'),
+	('Clear Your Clutter with Feng Shui',									'Broadway Books'),
+	('A Manual of  Buddhism',										'Buddha Educational Foundation'),
+	('A Century of Portland Architecture',									'Oregon Historical Society'),
+	('The Rumi Collection',											'Shambhala Publications'),
+	('Getting Things Done, The Art of Stress-Free Productivity',						'Penguin Random House'),
+	('Your Money or Your Life',										'Penguin Random House'),
+	('On the Road',												'Penguin Random House'),
+	('Jitterbug Perfume',											'Bantam Books'),
+	('A New Earth, Awakening to your Life''s Purpose',							'Penguin Random House'),
+	('How to Be Alone',											'Atria Books'),
 	('Best Hikes With Children in Western & Central Oregon',						'The Mountaineers'),
-	('Day Hike! Olympic Peninsula',													'Sasquatch Books'),
+	('Day Hike! Olympic Peninsula',										'Sasquatch Books'),
 	('A Waterfall Lover''s Guide to the Pacific Northwest',							'The Mountaineers'),
-	('60 Hikes within 60 Miles, Portland',											'Menasha Ridge Press'),
-	('The Old Man and The Sea',														'Scribner'),
-	('The Sun Also Rises',															'Scribner'),
-	('A Farewell to Arms',															'Scribner'),
-	('For Whom the Bell Tolls',														'Scribner'),
-	('Their Eyes Were Watching God',												'HarperCollins Publishers'),
-	('The Gunslinger',																'Scribner'),
-	('The Drawing of The Three, The Dark Tower II',									'Scribner'),
-	('The Waste Lands, The Dark Tower III',											'Scribner'),
-	('Wizard and Glass, The Dark Tower IV',											'Scribner'),
-	('Wolves of the Calla, The Dark Tower V',										'Scribner'),
-	('Song of Susannah, The Dark Tower VI',											'Scribner'),
-	('The Dark Tower, The Dark Tower VII',											'Scribner'),
+	('60 Hikes within 60 Miles, Portland',									'Menasha Ridge Press'),
+	('The Old Man and The Sea',										'Scribner'),
+	('The Sun Also Rises',											'Scribner'),
+	('A Farewell to Arms',											'Scribner'),
+	('For Whom the Bell Tolls',										'Scribner'),
+	('Their Eyes Were Watching God',									'HarperCollins Publishers'),
+	('The Gunslinger',											'Scribner'),
+	('The Drawing of The Three, The Dark Tower II',								'Scribner'),
+	('The Waste Lands, The Dark Tower III',									'Scribner'),
+	('Wizard and Glass, The Dark Tower IV',									'Scribner'),
+	('Wolves of the Calla, The Dark Tower V',								'Scribner'),
+	('Song of Susannah, The Dark Tower VI',									'Scribner'),
+	('The Dark Tower, The Dark Tower VII',									'Scribner'),
 	('The Wind Through the Keyhole, The Dark Tower IV-1/2',							'Scribner'),
-	('Sleeping Beauties: A Novel',													'Scribner'),
-	('1984',																		'Signet Classic'),
-	('Don Quixote',																	'Penguin Classics'),
-	('The Lost Tribe',																'Tech Academy Books')
+	('Sleeping Beauties: A Novel',										'Scribner'),
+	('1984',												'Signet Classic'),
+	('Don Quixote',												'Penguin Classics'),
+	('The Lost Tribe',											'Tech Academy Books')
 ;
 
 SELECT * FROM BOOKS
@@ -77,15 +83,15 @@ SELECT * FROM BOOKS
 INSERT INTO BOOK_AUTHORS
 	(BookID, AuthorName)
 	VALUES
-	(1,		'Thich Nhat Hanh'),
-	(2,		'Frances Mayes'),
-	(3,		'Inayat Khan'),
-	(4,		'Esther Hicks and Jerry Hicks'),
-	(5,		'Kurt Schnaubelt'),
-	(6,		'Karen Kingston'),
-	(7,		'Narada'),
-	(8,		'Thomas Vaughan and George A. McMath'),
-	(9,		'Jelaluddin Rumi and Kabir Helminski'),
+	(1,	'Thich Nhat Hanh'),
+	(2,	'Frances Mayes'),
+	(3,	'Inayat Khan'),
+	(4,	'Esther Hicks and Jerry Hicks'),
+	(5,	'Kurt Schnaubelt'),
+	(6,	'Karen Kingston'),
+	(7,	'Narada'),
+	(8,	'Thomas Vaughan and George A. McMath'),
+	(9,	'Jelaluddin Rumi and Kabir Helminski'),
 	(10,	'David Allen and James Fallows'),
 	(11,	'Vicki Robin and Joe Dominguez'),
 	(12,	'Jack Kerouac'),
@@ -115,22 +121,21 @@ INSERT INTO BOOK_AUTHORS
 	(36,	'Sarvesh Esmeralda')
 ;
 
+-- The following commented code will reset "IDENTITY" to 101, as defined in the TABLE CREATE
+-- Had to do this as my original seed was offset from testing an INSERT statement
+-- 	DELETE FROM LIBRARY_BRANCH
+-- 	DBCC CHECKIDENT ('AcademyLibrary.dbo.LIBRARY_BRANCH',RESEED, 101)
+
 
 INSERT INTO LIBRARY_BRANCH
 	(BranchName, Address)
 	VALUES
-	('Sharpstown',								'2426 Radio Park Drive, Columbus, GA, 31901'),
-	('Central',									'2977 Heavner Avenue, Conyers, GA, 30207'),
-	('Summerhill',								'4837 Post Farm Road, Atlanta, GA, 30303'),
-	('Downtown',								'3164 Junior Avenue, Atlanta, GA, 30303'),
-	('Atlantic Station',						'1080 Mount Olive Road, Atlanta, GA 30303')
+	('Sharpstown',						'2426 Radio Park Drive, Columbus, GA, 31901'),
+	('Central',						'2977 Heavner Avenue, Conyers, GA, 30207'),
+	('Summerhill',						'4837 Post Farm Road, Atlanta, GA, 30303'),
+	('Downtown',						'3164 Junior Avenue, Atlanta, GA, 30303'),
+	('Atlantic Station',					'1080 Mount Olive Road, Atlanta, GA 30303')
 ;
-
-SELECT * FROM LIBRARY_BRANCH
-
--- Reset "IDENTITY" to 0
--- DELETE FROM LIBRARY_BRANCH
--- DBCC CHECKIDENT ('AcademyLibrary.dbo.LIBRARY_BRANCH',RESEED, 100)
 
 INSERT INTO BOOK_COPIES
 	(BranchID, BookID, Number_Of_Copies)
@@ -284,12 +289,10 @@ INSERT INTO BOOK_COPIES
 	(105,36,1)
 ;
 
+-- Have a look at the books at each library branch
 SELECT * FROM BOOK_COPIES
 	INNER JOIN LIBRARY_BRANCH ON BOOK_COPIES.BranchID = LIBRARY_BRANCH.BranchID
 	INNER JOIN BOOKS ON BOOK_COPIES.BookID = BOOKS.BookID
-
-
-
 
 INSERT INTO BORROWER
 	(Name,Address,Phone)
@@ -369,7 +372,7 @@ SELECT * FROM LIBRARY_BRANCH
 SELECT * FROM BOOK_COPIES WHERE BranchID = 101
 
 
-
+-- INSERT some example book loans so we have some data to work with, these are organized by CardNo from the BORROWER table.
 INSERT INTO BOOK_LOANS
 	(CardNo,BookID,BranchID,DateOut,DateDue)
 	VALUES
