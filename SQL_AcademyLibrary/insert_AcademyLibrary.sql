@@ -11,24 +11,24 @@ INSERT INTO PUBLISHER
 	(PublisherName,Address,Phone)
 	VALUES
 	('Parallax Press',					'2236 Sixth Street B, Berkeley, CA 94710',					5105406411),
-	('Broadway Books',					'1745 Broadway New York, NY 10019, New York, NY 10019',				8007932665),
+	('Broadway Books',					'1745 Broadway New York, NY 10019, New York, NY 10019',		8007932665),
 	('Hunter House',					'1515 1/2 Park St, Alameda, CA 94501',						5108655282),
-	('Hay House',						'6611, 2776 Loker Ave W, Carlsbad, CA 92010',					7604317695),
-	('Frog Books',						'11820 Uradco Place, Suite 105 San Antonio, FL 33576',				3525882082),
-	('Buddha Educational Foundation',			'11F, No.55 Hang Chow South Road, Sec. 1, Taipei, Taiwan',			886223951198),
-	('Oregon Historical Society',				'200 SW Park Ave, Portland, OR 97205',						5032221741),
-	('Shambhala Publications',				'4720 Walnut Street, Boulder, CO 80301',					3032229598),
-	('Penguin Random House',				'1745 Broadway, New York, NY 10019,',						8007932665),
+	('Hay House',						'6611, 2776 Loker Ave W, Carlsbad, CA 92010',				7604317695),
+	('Frog Books',						'11820 Uradco Place, Suite 105 San Antonio, FL 33576',		3525882082),
+	('Buddha Educational Foundation',	'11F, No.55 Hang Chow South Road, Sec. 1, Taipei, Taiwan',	886223951198),
+	('Oregon Historical Society',		'200 SW Park Ave, Portland, OR 97205',						5032221741),
+	('Shambhala Publications',			'4720 Walnut Street, Boulder, CO 80301',					3032229598),
+	('Penguin Random House',			'1745 Broadway, New York, NY 10019,',						8007932665),
 	('Bantam Books',					'1745 Broadway, New York, NY 10019',						2127829000),
-	('Atria Books',						'1230 6th Ave, New York, NY 10020',						2126987086),
-	('The Mountaineers',				'	7700 Sand Point Way NE, Seattle, WA 98115',					2065216001),
+	('Atria Books',						'1230 6th Ave, New York, NY 10020',							2126987086),
+	('The Mountaineers',				'7700 Sand Point Way NE, Seattle, WA 98115',				2065216001),
 	('Sasquatch Books',					'1904 3rd Ave #710, Seattle, WA 98101',						2064674300),
-	('Menasha Ridge Press',					'2204 1st Ave S #102, Birmingham, AL 35233',					2053220439),
-	('Scribner',						'1230 6th Ave, New York, NY 10020',						2126987000),
-	('HarperCollins Publishers',				'195 Broadway, New York, NY 10007',						2122077000),
+	('Menasha Ridge Press',				'2204 1st Ave S #102, Birmingham, AL 35233',				2053220439),
+	('Scribner',						'1230 6th Ave, New York, NY 10020',							2126987000),
+	('HarperCollins Publishers',		'195 Broadway, New York, NY 10007',							2122077000),
 	('Signet Classic',					'1745 Broadway, New York, NY 10019',						2127829000),
-	('Penguin Classics',					'1745 Broadway, New York, NY 10019',						2127829000),
-	('Tech Academy Books',					'310 SW 4th Ave #412, Portland, OR 97204',					5032066915)
+	('Penguin Classics',				'1745 Broadway, New York, NY 10019',						2127829000),
+	('Tech Academy Books',				'310 SW 4th Ave #412, Portland, OR 97204',					5032066915)
 ;
 
 
