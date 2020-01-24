@@ -1,1 +1,0 @@
-#SQL Academy Library
